@@ -6,7 +6,6 @@ def my_pop(re_list,length,index):
         return 1
     #store removing value
     value=re_list[index]
-    print(value)
     #without refreshing the list,assign it
     temp=[None]*(length-1)
     if index>=0:
